@@ -1,203 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+nav {
+  box-sizing: border-box;
+  margin: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
 
 .navbar {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    height: 50px;
-  }  
-
-.page_options {
-margin: 0;
-padding: 0;
-list-style: none;
-display: flex;
-}
-
-.option {
-margin-right: 20px;
-}
-
-nav a {
-color: #ffffffed;
-text-decoration: none;
-font-size: 18px;
-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-border-radius: 5px;
-font-family: "Open Sans", sans-serif;
-padding: 10px 15px;
-text-align: center;
-}
-
-.page_Link:hover {
-color: #fff;
-color: #fff;
-  background: #bdc3c7; /* fallback for old browsers */
+  margin: 3;
+  padding: 2 4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff416c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2c3e50,
-    #bdc3c7
+    #ff4b2b,
+    #ff416c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2c3e50,
-    #bdc3c7
+    #ff4b2b,
+    #ff416c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+.logo {
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 
-.page_Link:active {
-    color: #fff;
-    background: #bdc3c7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #2c3e50,
-      #bdc3c7
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #2c3e50,
-      #bdc3c7
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.navbar li {
+  display: inline;
+  list-style: none;
+  color: rgb(121, 110, 97);
 }
+.navbar li a {
+  text-decoration: none;
+  color: white;
 
-nav ul ul {
-position: absolute;
-top: 100%;
-left: 0;
-display: none;
-z-index: 999;
-background-color: #fff;
-padding: 10px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(253, 0, 0, 0.755);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
-
-nav ul ul li {
-margin: 0;
+.navbar li a:hover {
+  background-color: rgb(255, 102, 0);
+  cursor: pointer;
 }
-
-nav ul ul a {
-font-size: 16px;
-color: #333;
-
-}
-
-nav ul ul a:hover {
-background-color: #f2f2f2;
-
-}
-
-nav li:hover > ul {
-display: block;
-}
-
-nav a img {
-height: 30px;
-margin-right: 10px;
-margin-top: 0px;
-margin-bottom: 0px;
-}
-
-@media (max-width: 768px) {
-nav {
-padding: 10px;
-height: auto;
-}
-
-nav ul {
-width: 100%;
-flex-direction: column;
-}
-
-nav li {
-margin-right: 0;
-margin-bottom: 10px;
-}
-
-nav a {
-font-size: 20px;
-padding: 10px 15px;
-}
-
-nav ul ul {
-position: static;
-display: block;
-background-color: transparent;
-padding: 0;
-}
-
-nav ul ul a {
-color: #fff;
-font-size: 18px;
-}
-
-nav a img {
-margin-right: 0;
-}
-}
-/* Mobile version  */
-@media (max-width: 768px) {
-  nav {
-    padding: 10px;
-    height: auto;
-  }
-  
-  nav ul {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-    position: relative;
-  }
-  
-  nav a {
-    font-size: 20px;
-    padding: 10px 15px;
-    text-align: center;
-    width: 100%;
-  }
-  
-  nav ul ul {
-    position: static;
-    display: block;
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-  }
-  
-  nav ul ul a {
-    color: #333;
-    font-size: 18px;
-  }
-  
-  nav a img {
-    margin-right: 0;
-    margin-bottom: 5px;
-  }
-  
-  nav li:hover > ul {
-    display: block;
-  }
-  
-  nav ul li:hover > ul {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  nav ul ul li {
-    margin: 0;
-    display: block;
-  }
-}
-
