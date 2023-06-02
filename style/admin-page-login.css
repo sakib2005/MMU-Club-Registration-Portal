@@ -1,0 +1,209 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  transition: 0.3s;
+}
+.solid-button-button:hover {
+  color: #CE0000;
+  border-color: #CE0000;
+  border-width: 1px;
+  background-color: #ffffff;
+}
+.solid-button-root-class-name {
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+
+.solid-button-root-class-name3 {
+  margin-top: 450px;
+  margin-left: 225px;
+}
+.solid-button-root-class-name4 {
+  margin-left: 31px;
+}
+.solid-button-root-class-name5 {
+  margin-top: 450px;
+  margin-left: 240px;
+  margin-bottom: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .solid-button-button {
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: #ce0000;
+  }
+}
+@media(max-width: 767px) {
+  .solid-button-root-class-name6 {
+    margin-top: var(--dl-space-space-unit);
+  }
+}
+
+.admin-page-login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-page-login-login-page {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/Pic/learningpointdark-1100h.png");
+}
+.admin-page-login-rectangle3 {
+  top: -1px;
+  right: 0px;
+  width: 720px;
+  height: 1024px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/external/rectangle3317-ri1-800w.png");
+  background-position: center;
+}
+.admin-page-login-text-container {
+  top: 240px;
+  left: 742px;
+  width: 332.2124938964844px;
+  height: 54.400001525878906px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.admin-page-login-text {
+  top: -1px;
+  left: -708px;
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-page-login-frame-passwordinput {
+  top: 396px;
+  right: 124px;
+  width: 563px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: flex-start;
+  background-color: rgba(36, 36, 36, 1);
+}
+.admin-page-login-textinput {
+  color: #a4a3a3;
+  width: 600px;
+  border-width: 0px;
+  background-color: transparent;
+}
+.admin-page-login-frame-email-addressinput {
+  top: 313px;
+  right: 124px;
+  width: 563px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: flex-start;
+  background-color: rgba(36, 36, 36, 1);
+}
+.admin-page-login-textinput1 {
+  color: #a4a3a3;
+  width: 600px;
+  border-width: 0px;
+  background-color: transparent;
+}
+.admin-page-login-back-to-landing-pagetext {
+  top: 575px;
+  left: 38px;
+  color: rgb(127, 127, 127);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-page-login-back-to-landing-pagetext:hover {
+  color: #9e00ff;
+}
+.admin-page-login-lottie-node {
+  width: 400px;
+  height: 400px;
+  align-self: stretch;
+  margin-top: 550px;
+  margin-left: 300px;
+}
+.admin-page-login-rectangle1583 {
+  top: 560px;
+  left: 36px;
+  width: 600px;
+  height: 2px;
+  position: absolute;
+}
+.admin-page-login-schoollogo1 {
+  top: 103px;
+  left: 25px;
+  width: 206px;
+  height: 141px;
+  position: absolute;
+}
+.admin-page-login-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-page-login-lottie-node1 {
+  width: 652px;
+  height: 709px;
+  margin-left: 60px;
+}

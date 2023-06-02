@@ -1,0 +1,59 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  transition: 0.3s;
+}
+.solid-button-button:hover {
+  color: #CE0000;
+  border-color: #CE0000;
+  border-width: 1px;
+  background-color: #ffffff;
+}
+.solid-button-root-class-name {
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+
+.solid-button-root-class-name3 {
+  margin-top: 450px;
+  margin-left: 225px;
+}
+.solid-button-root-class-name4 {
+  margin-left: 31px;
+}
+.solid-button-root-class-name5 {
+  margin-top: 450px;
+  margin-left: 240px;
+  margin-bottom: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .solid-button-button {
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: #ce0000;
+  }
+}
+@media(max-width: 767px) {
+  .solid-button-root-class-name6 {
+    margin-top: var(--dl-space-space-unit);
+  }
+}
