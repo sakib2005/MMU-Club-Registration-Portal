@@ -1,11 +1,14 @@
 {
-  "name": "mmu-club-gallery-portal",
-  "version": "1.0.0",
+  "name": "mmu-club-registration-portal",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1",
-    "@lottiefiles/lottie-player": "1.5.7"
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
 }
