@@ -101,16 +101,6 @@
   margin-bottom: 450px;
 }
 
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 1600px) {
   .solid-button-button {
     color: #ffffff;
@@ -563,8 +553,15 @@
   text-decoration: none;
 }
 .footer-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
+.footer-navlink2{
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+
 .footer-follow-container {
   display: flex;
   align-items: center;
