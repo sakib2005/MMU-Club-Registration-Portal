@@ -639,14 +639,20 @@
     align-items: flex-start;
     margin-left: 50px;
   }
-  .footer-navlink {
-    margin-bottom: var(--dl-space-space-halfunit);
+  .footer-navlink{
+    margin-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
   }
   .footer-navlink1 {
-    margin-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
   }
   .footer-navlink2 {
-    margin-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
+  }
+  .footer-navlink3 {
+    text-decoration: none;
   }
   .footer-follow-container {
     margin-left: 0px;

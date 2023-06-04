@@ -44,8 +44,19 @@
   text-decoration: none;
 }
 .footer-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
+.footer-navlink2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+
+.footer-navlink3 {
+  text-decoration: none;
+}
+
 .footer-follow-container {
   display: flex;
   align-items: center;
