@@ -54,6 +54,7 @@
     </style>
     <link rel="stylesheet" href="style/style.css" />
   </head>
+
   <body>
     <div>
       <link href="style/admin-page-login.css" rel="stylesheet" />
@@ -83,6 +84,7 @@
                 type="text"
                 placeholder="Password"
                 class="admin-page-login-textinput input"
+                id="password"
               />
             </div>
             <div
@@ -93,10 +95,11 @@
                 type="text"
                 placeholder="Email Address"
                 class="admin-page-login-textinput1 input"
+                id="email"
               />
             </div>
             <div class="solid-button-container solid-button-root-class-name4">
-              <button class="solid-button-button button">
+              <button class="solid-button-button button" onclick="showAlert()" >
                 <span>Login</span>
               </button>
             </div>
@@ -143,4 +146,18 @@
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
+  <!-- Javascript -->
+  <script>
+    function showAlert() {
+      var password = document.getElementById("password").value;
+      var email = document.getElementById("email").value;
+      console.log(password)
+      console.log(email)
+      var alertmessage = 
+      "Email : " + email + 
+      "\nPassword : " + password;
+
+      alert(alertmessage);
+    }
+  </script>
 </html>
