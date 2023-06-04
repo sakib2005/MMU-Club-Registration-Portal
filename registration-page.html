@@ -216,6 +216,7 @@
               type="text"
               placeholder="Phone Number"
               class="registration-page-textinput input"
+              id="phoneNumberInput"
             />
           </div>
           <div class="registration-page-frame-email-addressinput">
@@ -223,6 +224,7 @@
               type="text"
               placeholder="Email Address"
               class="registration-page-textinput1 input"
+              id="emailAddressInput"
             />
           </div>
           <div class="registration-page-frame-passwordinput">
@@ -230,6 +232,7 @@
               type="text"
               placeholder="Password"
               class="registration-page-textinput2 input"
+              id="passwordInput"
             />
           </div>
           <div class="registration-page-frame-confirm-passwordinput">
@@ -237,6 +240,7 @@
               type="text"
               placeholder="Confirm Password"
               class="registration-page-textinput3 input"
+              id="confirmPasswordInput"
             />
           </div>
           <div class="registration-page-frame-nameinput">
@@ -244,6 +248,7 @@
               type="text"
               placeholder="Name"
               class="registration-page-textinput4 input"
+              id="nameInput"
             />
           </div>
           <span class="registration-page-text">
@@ -273,7 +278,7 @@
             </div>
           </div>
           <div class="solid-button-container solid-button-root-class-name3">
-            <button class="solid-button-button button">
+            <button class="solid-button-button button" onclick="showAlert()">
               <span>Register</span>
             </button>
           </div>
@@ -282,4 +287,22 @@
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
+  <script>
+    function showAlert() {
+      var phoneNumber = document.getElementById("phoneNumberInput").value;
+      var emailAddress = document.getElementById("emailAddressInput").value;
+      var password = document.getElementById("passwordInput").value;
+      var confirmPassword = document.getElementById("confirmPasswordInput").value;
+      var name = document.getElementById("nameInput").value;
+
+      var alertMessage =
+        "Phone Number: " + phoneNumber +
+        "\nEmail Address: " + emailAddress +
+        "\nPassword: " + password +
+        "\nConfirm Password: " + confirmPassword +
+        "\nName: " + name;
+
+      alert(alertMessage);
+    }
+  </script>
 </html>
