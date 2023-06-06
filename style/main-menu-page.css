@@ -1,4 +1,4 @@
-.main-menu-page-container {
+.container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.main-menu-page-image {
+.logo {
   width: 214px;
   height: 120px;
   align-self: flex-start;
@@ -14,39 +14,39 @@
   object-fit: cover;
   margin-left: 80px;
 }
-.main-menu-page-hero {
+.main {
   width: 100%;
-  height: 1002px;
+  height: 500px;
   display: flex;
   padding: 48px;
   max-width: 1400px;
-  min-height: 80vh;
+  min-height: 60vh;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.main-menu-page-container1 {
+.main-container {
   display: flex;
   margin-right: 48px;
   padding-right: 48px;
   flex-direction: column;
 }
-.main-menu-page-text {
+.main-text {
   width: 583px;
   font-size: 3rem;
   max-width: 450px;
 }
-.main-menu-page-text04 {
+.span-m {
   color: #0016f9;
 }
-.main-menu-page-text05 {
+.span-u {
   color: #ff0000;
 }
-.main-menu-page-text10 {
+.paragraph {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.main-menu-page-btn-group {
+.button-container {
   display: flex;
   align-items: center;
   flex-direction: row;

@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Manage Students</title>
+    <title>Manage Lecturers</title>
+    <!-- <meta property="og:title" content="admin-lecturershtml - IWP" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    <!-- <meta property="twitter:card" content="summary_large_image" /> -->
 
     <!-- Ensure consistent styling across different browsers -->
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
-
     <style data-tag="default-style-sheet">
       html {
         font-family: Inter;
@@ -28,7 +29,6 @@
 
       }
     </style>
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
@@ -44,34 +44,32 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
+    <!--This is the head section-->
     <!-- <style> ... </style> -->
     <link rel="stylesheet" href="../admin Style/style.css" />
-
   </head>
-  
   <body>
     <div>
-      <link href="../admin Style/admin-studentshtml.css" rel="stylesheet" />
+      <link href="../admin Style/admin-lecturershtml.css" rel="stylesheet" />
 
-      <div class="admin-studentshtml-container">
-        <header class="admin-studentshtml-header">
+      <div class="admin-lecturershtml-container">
+        <header data-role="Header" class="admin-lecturershtml-header">
           <img
             alt="image"
             src="https://i.pinimg.com/originals/8c/5c/71/8c5c71d0b36e9966229a10181efd0164.png"
-            class="admin-studentshtml-image"
+            class="admin-lecturershtml-image"
           />
-          <h1 class="admin-studentshtml-text">Admin Dashboard</h1>
+          <h1 class="admin-lecturershtml-text">Admin Dashboard</h1>
         </header>
+        <div class="admin-lecturershtml-container1">
 
-        <div class="admin-studentshtml-container1">
-          
           <!-- SIDEBAR -->
-          <aside class="admin-studentshtml-sidebar">
-            <nav class="admin-studentshtml-nav">
+          <aside class="admin-lecturershtml-sidebar">
+            <nav class="admin-lecturershtml-nav">
               <button
                 type="button"
                 id="dashboardButton"
-                class="admin-studentshtml-button button"
+                class="admin-lecturershtml-button button"
                 onclick="window.location.href = 'admin-dashboard.html'"
               >
                 <span>
@@ -82,7 +80,7 @@
               <button
                 type="button"
                 id="studentsButton"
-                class="admin-studentshtml-button1 button"
+                class="admin-lecturershtml-button1 button"
                 onclick="window.location.href = 'admin-students.html'"
               >
                 <span>
@@ -93,7 +91,7 @@
               <button
                 type="button"
                 id="lecturersButton"
-                class="admin-studentshtml-button2 button"
+                class="admin-lecturershtml-button2 button"
                 onclick="window.location.href = 'admin-lecturers.html'"
               >
                 Lecturers
@@ -101,7 +99,8 @@
               <button
                 type="button"
                 id="logoutButton"
-                class="admin-studentshtml-button3 button"
+                class="admin-lecturershtml-button3 button"
+                onclick="window.location.href = '../index.html'"
               >
                 Log Out
               </button>
@@ -109,42 +108,43 @@
           </aside>
 
           <!-- MAIN PAGE -->
-          <main class="admin-studentshtml-container2">
-            <h1 class="admin-studentshtml-text07">
-              <span>Manage Students</span>
-              <br />
-            </h1>
+          <main class="admin-lecturershtml-container2">
+            <h1 class="admin-lecturershtml-text07">Manage Lecturers</h1>
+            <section class="admin-lecturershtml-container3">
+              <div class="admin-lecturershtml-container4">
 
-            <section class="admin-studentshtml-container3">
-              <div class="admin-studentshtml-container4">
-                <form class="admin-studentshtml-form">
+                <form class="admin-lecturershtml-form">
 
-                  <label class="admin-studentshtml-text10">Name:</label>
+                  <label class="admin-lecturershtml-text08">Name:</label>
                   <input
                     type="text"
                     id="name"
-                    class="admin-studentshtml-textinput input"
+                    class="admin-lecturershtml-textinput input"
                   />
 
-                  <label class="admin-studentshtml-text11">ID:</label>
+                  <label class="admin-lecturershtml-text09">ID:</label>
                   <input
-                    type="number"
+                    type="text"
                     id="id"
-                    class="admin-studentshtml-textinput1 input"
+                    class="admin-lecturershtml-textinput1 input"
                   />
 
-                  <label class="admin-studentshtml-text12">
+                  <label class="admin-lecturershtml-text10">
                     <span>Faculty:</span>
                     <br />
                   </label>
-                  <select id="faculty" class="admin-studentshtml-select">
+
+                  <select id="faculty" class="admin-lecturershtml-select">
                     <option value="placeholder" selected="">
                       Select a faculty
                     </option>
+                    <option value="Option 1">Option 1</option>
                     <option value="FCI">
                       Faculty of Computing and Informatics
                     </option>
+                    <option value="Option 2">Option 2</option>
                     <option value="FOE">Faculty of Engineering</option>
+                    <option value="Option 3">Option 3</option>
                     <option value="FOB">Faculty of Business</option>
                     <option value="FOL">Faculty of Law</option>
                     <option value="FCA">Faculty of Cinematic Arts</option>
@@ -157,19 +157,14 @@
                   <button
                     type="submit"
                     id="add"
-                    class="admin-studentshtml-button4 button"
+                    class="admin-lecturershtml-button4 button"
                   >
-
-                    <span class="admin-studentshtml-text15">
+                    <span class="admin-lecturershtml-text13">
                       <span>Add</span>
                       <br />
                     </span>
-
                   </button>
                 </form>
-              </div>
-              <div class="admin-studentshtml-container5">
-                <h2 class="admin-studentshtml-text18">Member List</h2>
 
                 <!-- DISPLAY INFORMATION -->
                 <table>
@@ -203,9 +198,9 @@
         </div>
       </div>
     </div>
-    <script
+    <!-- <script
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
+    ></script> -->
   </body>
 </html>
