@@ -214,6 +214,7 @@
               type="text"
               placeholder="Email Address"
               class="login-page-textinput input"
+              id="emailAddressInput"
             />
           </div>
           <div class="login-page-frame-passwordinput">
@@ -221,6 +222,7 @@
               type="text"
               placeholder="Password"
               class="login-page-textinput1 input"
+              id="passwordInput"
             />
           </div>
           <span class="login-page-text">Login Page</span>
@@ -243,7 +245,7 @@
             </div>
           </div>
           <div class="solid-button-container solid-button-root-class-name5">
-            <button class="solid-button-button button">
+            <button class="solid-button-button button" onclick="showAlert()">
               <span>Login</span>  
             </button>
           </div>
@@ -258,5 +260,18 @@
       </div>
     </div>
     <!-- <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script> -->
+    <script>
+      function showAlert() {
+        var emailAddress = document.getElementById("emailAddressInput").value;
+        var password = document.getElementById("passwordInput").value;  
+        var alertMessage =
+          "Email Address: " + emailAddress +
+          "\nPassword: " + password ;
+  
+        alert(alertMessage + "\nlogged in!");
+
+        window.location.href = '../login-success-page.html'
+      }
+    </script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+.button:hover {
+  cursor: pointer;
+}
+
 .admin-studentshtml-container {
   width: 100%;
   display: flex;

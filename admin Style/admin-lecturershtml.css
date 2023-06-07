@@ -1,3 +1,15 @@
+.button:hover {
+  cursor: pointer;
+}
+
+.edit-button {
+  cursor: pointer;
+}
+
+.delete-button {
+  cursor: pointer;
+}
+
 .admin-lecturershtml-container {
   width: 100%;
   display: flex;
